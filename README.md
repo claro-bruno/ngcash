@@ -33,9 +33,11 @@ Logo em seguida, entre na pasta do backend e execute o comando para o docker ini
 docker-compose up -d
 ```
 
+
 Utilize o comando abaixo para atualizar o banco de dados com a migraçao atual do prisma.
 
 ```
+yarn install
 yarn prisma migrate dev 
 yarn prisma generate
 ```
