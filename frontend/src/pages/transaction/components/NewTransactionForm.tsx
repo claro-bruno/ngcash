@@ -39,7 +39,7 @@ export default function NewTransactionForm() {
   )
 
   function handleSubmitNewTransaction(transactionInfo: any) {
-    transactionInfo.accountId = accountId
+    transactionInfo.id = accountId
     mutateAsync(transactionInfo)
   }
 
@@ -66,7 +66,7 @@ export default function NewTransactionForm() {
                 <input
                   className="inputsDefault"
                   type="number"
-                  {...register('value')}
+                  {...register('valor')}
                   required
                 />
               </label>
