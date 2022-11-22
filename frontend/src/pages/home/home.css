@@ -1,0 +1,72 @@
+.home-cards{
+  @apply rounded max-w-[15rem] w-[20vw] min-w-[12rem] min-h-[15rem] h-[27vh] bg-zinc-100 border border-brand flex justify-start items-center flex-col gap-4 font-bold text-xl shadow shadow-zinc-900 transition-colors
+   ;
+}
+.home-cards span {
+@apply mt-12 mb-8
+}
+.home-cards span,.home-cards h2  {
+@apply text-brand3
+}
+.card-hover{
+@apply group-hover:text-brand2
+}
+
+
+.dashboard-container {
+  display: flex;
+  margin-top: 35px;
+  width: 100%;
+  gap: 35px;
+  justify-content: space-evenly;
+  
+}
+
+.account-container {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.container-info {
+  height: 15rem;
+  background-color: #248BCB;
+  border-radius: 10px;
+  color: #FFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: column;
+  padding: 10px;
+  width: 400px; 
+
+}
+
+.value-info {
+  font-size: xx-large;
+}
+
+.account-icon {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.transfer-link {
+  text-decoration: none;
+  background-color: #248BCB;
+  color: #FFFF;
+  height: 60px;
+  font-size: xx-large;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+
+}

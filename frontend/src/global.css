@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Mono:wght@700&family=Roboto:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  @apply font-['Roboto',sans-serif]
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.inputsDefault {
+  @apply rounded-md text-sm ring-1  ring-zinc-400 w-56 text-zinc-800 p-1 h-8 outline-transparent
+  focus:outline-brand transition-colors;
+
+}
+.labelsDefault {
+
+@apply flex flex-col gap-1 text-zinc-600;
+
+}
+
+.fileInput {
+
+  @apply block w-full text-sm text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-full
+ file:text-sm file:font-semibold file:bg-white file:border file:text-brand3 hover:file:bg-brand3 hover:file:text-white transition-colors duration-300 hover:file:border-transparent
+
+}
+
+.inputsAndLabelsContainer {
+  @apply flex justify-around w-[55rem]
+
+}
+.inputRadio{
+@apply w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500;
+}
+.tableContainer::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
+
+.table{
+  @apply text-sm text-left text-gray-500 dark:text-gray-400 w-[98%];
+}
+.tableHead {
+  @apply  text-xs bg-gray-50 text-gray-700 uppercase dark:bg-gray-700 dark:text-gray-400 text-center;
+}
+tbody{
+@apply text-center
+}
+
+.tableLine {
+  @apply py-4 px-4 w-auto;
+}
+.tableLoading{
+@apply mt-10 absolute left-0 right-0  flex  justify-center
+}
+.tableLine:first-child {
+@apply  relative text-center;
+}
+.tableLineHover{
+@apply hover:bg-brand2 font-semibold transition-all hover:text-white;
+}
+
+.tableBodyTh{
+  @apply flex relative top-1 justify-center font-medium text-gray-900 whitespace-nowrap dark:text-white ;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.buttonStyle1 {
+  @apply disabled:opacity-50 disabled:hover:ring-transparent disabled:hover:border-transparent disabled:cursor-not-allowed hover:ring-brand3 bg-brand3 focus:ring-brand3 transition-colors
+  py-1 rounded border border-transparent hover:border-white text-white ring-2 ring-transparent font-bold
+}
+.buttonStyle2 {
+  @apply disabled:opacity-50 disabled:hover:ring-transparent disabled:hover:border-transparent disabled:cursor-not-allowed hover:ring-brand2 bg-brand2 focus:ring-brand2 transition-colors hover:border-white text-white  py-1 rounded border border-transparent ring-2 ring-transparent font-bold
+}
+
+.reportInfos{
+@apply relative text-zinc-500  h-auto flex gap-2 my-2 items-center  text-lg self-center;
+}
+.reportInfosValue {
+@apply font-semibold text-zinc-700
+}
+.currentMY{
+@apply text-zinc-700  flex gap-2 font-extrabold text-xl
+}

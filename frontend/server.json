@@ -1,0 +1,567 @@
+{
+  "client": [
+    {
+      "id": 1,
+      "name": "Amazon",
+      "start": "13:00",
+      "end": "20:00",
+      "monday": true,
+      "status": "ACTIVE",
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": false,
+      "friday": true,
+      "saturday": true,
+      "sunday": false
+    },
+    {
+      "id": 2,
+      "name": "Big",
+      "start": "13:00",
+      "end": "20:00",
+      "monday": true,
+      "status": "ACTIVE",
+      "tuesday": false,
+      "wednesday": false,
+      "thursday": true,
+      "friday": false,
+      "saturday": true,
+      "sunday": true
+    },
+    {
+      "id": 3,
+      "name": "wallmart",
+      "start": "12:00",
+      "end": "18:00",
+      "monday": true,
+      "status": "ACTIVE",
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": false,
+      "friday": true,
+      "saturday": true,
+      "sunday": false
+    }
+  ],
+  "job": [
+    {
+      "id": 1,
+      "client": {
+        "name": "Amazon",
+        "id": 1
+      },
+      "status": "ACTIVE",
+      "contractor": {
+        "name": "bruno fay",
+        "id": 1
+      },
+      "quarter": [
+        {
+          "month": "September",
+          "year": 2022,
+          "value_hour": 20,
+          "total_hours":12,
+          "total":1,
+          "appointment": [
+            {
+              "date": "2022-09-01T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-02T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-03T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-04T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-05T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-06T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-07T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-08T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-09T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-10T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-11T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-12T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-13T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-14T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-15T22:38:56.193Z",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "month": "September",
+          "year": 2022,
+          "value_hour": 57,
+          "total_hours":12,
+          "total":1,
+          "appointment": [
+            {
+              "date": "2022-09-16T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-17T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-18T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-19T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-20T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-21T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-22T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-23T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-24T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-25T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-26T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-27T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-28T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-29T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-30T22:38:56.193Z",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "client": {
+        "name": "Big",
+        "id": 2
+      },
+      "status": "ACTIVE",
+      "contractor": {
+        "name": "bruno fay",
+        "id": 144
+      },
+      "quarter": [
+        {
+          "month": "September",
+          "year": 2022,
+          "value_hour": 20,
+          "total_hours":12,
+          "total":1,
+          "appointment": [
+            {
+              "date": "2022-09-01T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-02T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-03T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-04T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-05T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-06T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-07T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-08T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-09T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-10T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-11T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-12T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-13T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-14T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-15T22:38:56.193Z",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "month": "September",
+          "year": 2022,
+          "value_hour": 17,
+          "total_hours":12,
+          "total":1,
+          "appointment": [
+            {
+              "date": "2022-09-16T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-17T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-18T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-19T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-20T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-21T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-22T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-23T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-24T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-25T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-26T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-27T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-28T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-29T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-30T22:38:56.193Z",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "client": {
+        "name": "Walmart",
+        "id": 3
+      },
+      "status": "ACTIVE",
+      "contractor": {
+        "name": "jamila doe",
+        "id": 2
+      },
+      "quarter": [
+        {
+          "month": "September",
+          "year": 2022,
+          "value_hour": 20,
+          "total_hours":12,
+          "total":1,
+          "appointment": [
+            {
+              "date": "2022-09-01T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-02T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-03T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-04T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-05T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-06T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-07T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-08T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-09T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-10T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-11T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-12T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-13T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-14T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-15T22:38:56.193Z",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "month": "September",
+          "year": 2022,
+          "value_hour": 17,
+          "total_hours":12,
+          "total":1,
+          "appointment": [
+            {
+              "date": "2022-09-16T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-17T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-18T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-19T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-20T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-21T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-22T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-23T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-24T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-25T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-26T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-27T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-28T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-29T22:38:56.193Z",
+              "value": 0
+            },
+            {
+              "date": "2022-09-30T22:38:56.193Z",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "payments": [],
+  "contractor": [
+    {
+      "id": 1,
+      "email": "bruno@admin.com",
+      "first_name": "bruno",
+      "middle_name": null,
+      "last_name": "admin",
+      "urlProfile": "https://images.unsplash.com/photo-1531901599143-df5010ab9438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "urlDocumentProof": "https://images.unsplash.com/photo-1613244470042-e69e8ccb303a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "urlPrimaryResidencyProof": "https://images.unsplash.com/photo-1542120926-32f3559e9473?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "urlSecondaryResidencyProof": "",
+      "status": "ACTIVE",
+      "ein": "",
+      "acceptTerms": true,
+      "identification": "111-11-1111",
+      "dob": "2022-09-20T00:00:00.000Z",
+      "telephone": "(444) 444-4444",
+      "created_at": "2022-09-28T22:38:56.168Z",
+      "fk_id_account": 1,
+      "address": [
+        {
+          "id": 1,
+          "address": "ddddddddd",
+          "city": "aaaaaaaaaaa",
+          "zipcode": "11111-1111",
+          "state": "ddddddddddd",
+          "fk_id_contractor": 1,
+          "created_at": "2022-09-28T22:38:56.193Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "email": "djaisjd@dahsudhsa.com",
+      "first_name": "jamila doe",
+      "middle_name": null,
+      "last_name": "contrac",
+      "urlProfile": "",
+      "urlDocumentProof": "",
+      "urlPrimaryResidencyProof": "",
+      "urlSecondaryResidencyProof": "",
+      "status": "INACTIVE",
+      "ein": "",
+      "acceptTerms": true,
+      "identification": "111-11-1111",
+      "dob": "2022-08-31T00:00:00.000Z",
+      "telephone": "(111) 111-1111",
+      "created_at": "2022-09-28T22:52:29.985Z",
+      "fk_id_account": 3,
+      "address": [
+        {
+          "id": 2,
+          "address": "222222222222222222222222",
+          "city": "12dasdd",
+          "zipcode": "22222-22222-22222222",
+          "state": "dasd",
+          "fk_id_contractor": 2,
+          "created_at": "2022-09-28T22:52:30.014Z"
+        }
+      ]
+    }
+  ]
+}

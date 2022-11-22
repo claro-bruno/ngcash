@@ -1,0 +1,12 @@
+.modal {
+  @apply w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all ;
+}
+.termModal {
+  @apply w-full  transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all ;
+}
+.modal button :not[.buttonStyle2] {
+  @apply bg-brand3;
+}
+.submitModalButton{
+  @apply  px-2  py-1  font-bold
+}
